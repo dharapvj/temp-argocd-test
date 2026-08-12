@@ -9,16 +9,16 @@ set -euo pipefail
 
 # TODO: Accept the versions as Args or via a config file
 # To upgrade KKP, update the version of kkp here.
-KKP_VERSION=v2.29.7
+KKP_VERSION=v2.30.6
 #KKP_VERSION=v2.26.2
-K1_VERSION=1.12.3
-ARGO_VERSION=9.3.0
+K1_VERSION=1.14.1
+ARGO_VERSION=10.3.2
 ARGO_APPS_VERSION=2.29
 CHAINSAW_VERSION=0.2.12
 ENV=dev
 MASTER=dev-master
-SEED=false # - don't create extra seed. Any other value - name of the seed
-#SEED=dev-seed
+# SEED=false # - don't create extra seed. Any other value - name of the seed
+SEED=dev-seed
 CLUSTER_PREFIX=argodemo
 
 INSTALL_DIR=./binaries/kubermatic/releases/${KKP_VERSION}
